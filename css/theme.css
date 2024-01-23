@@ -22,10 +22,10 @@ body {
 	padding: 0;
 }
 
-.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+.navbar .nav>.active>a {
     color: #000000;
     text-decoration: none;
-    background-color: #ffe000;
+    background-color: #ffffff;
     -webkit-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
     -moz-box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
     box-shadow: inset 0 3px 8px rgba(0,0,0,0.125);
@@ -41,6 +41,8 @@ body {
 	display: table-cell;
 	width: 1%;
 	float: none;
+	color: #000;
+	text-shadow: none;
 }
 
 .navbar .nav li a {
@@ -48,6 +50,8 @@ body {
 	text-align: center;
 	border-left: 1px solid rgba(255, 255, 255, .75);
 	border-right: 1px solid rgba(0, 0, 0, .1);
+	color: #ffffff;
+	background-color: #000000;
 }
 
 .navbar .nav li:first-child a {
@@ -406,13 +410,13 @@ body>.navbar .brand:hover {
 	color: #fff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #012fff;
-	background: -moz-linear-gradient(45deg, #012fff 0%, #000000 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #012fff), color-stop(100%, #012fff));
-	background: -webkit-linear-gradient(45deg, #012fff 0%, #000000 100%);
-	background: -o-linear-gradient(45deg, #012fff 0%, #000000 100%);
-	background: -ms-linear-gradient(45deg, #012fff 0%, #000000 100%);
-	background: linear-gradient(45deg, #012fff 0%, #000000 100%) repeat;
+	background: #013cff;
+	background: -moz-linear-gradient(45deg, #013cff 0%, #000000 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #013cff), color-stop(100%, #013cff));
+	background: -webkit-linear-gradient(45deg, #013cff 0%, #000000 100%);
+	background: -o-linear-gradient(45deg, #013cff 0%, #000000 100%);
+	background: -ms-linear-gradient(45deg, #013cff 0%, #000000 100%);
+	background: linear-gradient(45deg, #013cff 0%, #000000 100%) repeat;
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
