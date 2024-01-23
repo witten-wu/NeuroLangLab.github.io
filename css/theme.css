@@ -37,7 +37,7 @@ body {
 .navbar .nav li a {
 	font-weight: bold;
 	text-align: center;
-	border-left: 1px solid rgba(255, 255, 255, .75);
+	border-left: 1px solid rgba(250, 2, 2, 0.75);
 	border-right: 1px solid rgba(0, 0, 0, .1);
 }
 
@@ -397,13 +397,13 @@ body>.navbar .brand:hover {
 	color: #fff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #e77f08;
-	background: -moz-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #30393C), color-stop(100%, #30393C));
-	background: -webkit-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: -o-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: -ms-linear-gradient(45deg, #30393C 0%, #000000 100%);
-	background: linear-gradient(45deg, #30393C 0%, #000000 100%) repeat;
+	background: #04b3ee;
+	background: -moz-linear-gradient(45deg, #04b3ee 0%, #000000 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #04b3ee), color-stop(100%, #04b3ee));
+	background: -webkit-linear-gradient(45deg, #04b3ee 0%, #000000 100%);
+	background: -o-linear-gradient(45deg, #04b3ee 0%, #000000 100%);
+	background: -ms-linear-gradient(45deg, #04b3ee 0%, #000000 100%);
+	background: linear-gradient(45deg, #04b3ee 0%, #000000 100%) repeat;
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
