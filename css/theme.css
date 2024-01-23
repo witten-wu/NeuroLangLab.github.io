@@ -434,9 +434,13 @@ body>.navbar .brand:hover {
 	opacity: .4;
 }
 
+h1 {
+    font-size: 25px;
+}
+
 .lead {
 	margin-bottom: 0px;
-	font-size: 21px;
+	font-size: 18px;
 	font-weight: 200;
 	line-height: 15px;
 }
