@@ -52,6 +52,7 @@ body {
 	border-right: 1px solid rgba(0, 0, 0, .1);
 	color: #ffffff;
 	background-color: #000000;
+	text-shadow: none;
 }
 
 .navbar .nav li:first-child a {
