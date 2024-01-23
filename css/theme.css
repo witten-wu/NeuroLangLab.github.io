@@ -397,7 +397,7 @@ body>.navbar .brand:hover {
 	color: #fff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #30393C;
+	background: #e77f08;
 	background: -moz-linear-gradient(45deg, #30393C 0%, #000000 100%);
 	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #30393C), color-stop(100%, #30393C));
 	background: -webkit-linear-gradient(45deg, #30393C 0%, #000000 100%);
