@@ -407,7 +407,7 @@ body>.navbar .brand:hover {
 
 .jumbotron {
 	position: relative;
-	padding: 45px 0px 35px 0px;
+	padding: 20px 0px 0px 0px;
 	color: #fff000;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
@@ -435,12 +435,13 @@ body>.navbar .brand:hover {
 }
 
 h1 {
-    font-size: 25px;
+	margin: 5px 0;
+    font-size: 20px;
 }
 
 .lead {
 	margin-bottom: 0px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 200;
 	line-height: 15px;
 }
