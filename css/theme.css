@@ -516,7 +516,11 @@ img.carousel-image {
 	margin: 0 auto;
   }
 .carousel-caption {
-	height: 50px;
+	height: 10px;
+  }
+
+.span4-align-right {
+	float: right;
   }
 
 li.publication {
