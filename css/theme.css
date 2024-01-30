@@ -506,6 +506,24 @@ img.carousel-image {
 	width: 100%;
 }
 
+.carousel .item a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+.carousel .item a img {
+	display: block;
+	margin: 0 auto;
+  }
+.carousel-caption {
+	height: 20px;
+	padding: 5px;
+  }
+
+.span4-align-right {
+	float: right !important;
+  }
+
 li.publication {
 	margin-bottom: 20px;
 }
