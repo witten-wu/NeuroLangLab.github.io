@@ -503,11 +503,21 @@ img.publications-thumb {
 }
 
 img.carousel-image {
-
+	width: 100%;
 	display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.carousel .item a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+.carousel .item a img {
+	display: block;
+	margin: 0 auto;
+  }
 
 li.publication {
 	margin-bottom: 20px;
