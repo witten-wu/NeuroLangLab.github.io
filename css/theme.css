@@ -515,6 +515,9 @@ img.carousel-image {
 	display: block;
 	margin: 0 auto;
   }
+.carousel-caption {
+	height: 50px;
+  }
 
 li.publication {
 	margin-bottom: 20px;
