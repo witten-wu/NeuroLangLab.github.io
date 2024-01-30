@@ -15,11 +15,6 @@ body {
 	margin: 20px 0
 }
 
-.center-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
 
@@ -509,6 +504,9 @@ img.publications-thumb {
 
 img.carousel-image {
 	width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 li.publication {
