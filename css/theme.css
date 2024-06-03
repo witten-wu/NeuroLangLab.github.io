@@ -408,16 +408,16 @@ body>.navbar .brand:hover {
 .jumbotron {
 	position: relative;
 	padding: 20px 0px 0px 0px;
-	color: #fff000;
+	color: #ffffff;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-	background: #013cff;
-	background: -moz-linear-gradient(45deg, #013cff 0%, #000000 100%);
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #013cff), color-stop(100%, #013cff));
-	background: -webkit-linear-gradient(45deg, #013cff 0%, #000000 100%);
-	background: -o-linear-gradient(45deg, #013cff 0%, #000000 100%);
-	background: -ms-linear-gradient(45deg, #013cff 0%, #000000 100%);
-	background: linear-gradient(45deg, #013cff 0%, #000000 100%) repeat;
+	background: #000255;
+	background: -moz-linear-gradient(45deg, #000255 0%, #000000 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #000255), color-stop(100%, #000255));
+	background: -webkit-linear-gradient(45deg, #000255 0%, #000000 100%);
+	background: -o-linear-gradient(45deg, #000255 0%, #000000 100%);
+	background: -ms-linear-gradient(45deg, #000255 0%, #000000 100%);
+	background: linear-gradient(45deg, #000255 0%, #000000 100%) repeat;
 	-webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	-moz-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
 	box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
