@@ -10,6 +10,7 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
+      <link href="css/showindow.css" rel="stylesheet">
       <meta name="google-site-verification" content="SYJUqMMQ3iRU7nCY0W2qUX8dokH2emd85bOua252gt4" />
    </head>
    <body>
@@ -28,7 +29,7 @@
                         <li><a href="publication.html">Publication</a></li>
                         <li><a href="research.html">Research</a></li>
                         <li><a href="activity.html">Activity</a></li>
-                        <li><a href="opening.html">Opening</a></li>
+                        <li><a href="opening.html">Join Us</a></li>
                      </ul>
                   </div>
                </div>
@@ -44,6 +45,24 @@
                            </a>
                         <div class="carousel-caption">
                            <h4>Congratulations to Professor Feng Gangyi on Receiving the CRF 2023/24 Young Collaborative Research Grant</h4>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <a><img src="images/Lab_photo1.jpg" class="carousel-image" alt="" style="width: 400px; height: 300px;"></a>                      
+                        <div class="carousel-caption">
+                           <h4>Lab Photos</h4>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <a><img src="images/Lab_photo2.jpg" class="carousel-image" alt="" style="width: 400px; height: 300px;"></a>                     
+                        <div class="carousel-caption">
+                           <h4>Lab Photos</h4>
+                        </div>
+                     </div>
+                     <div class="item">
+                        <a><img src="images/Lab_photo3.jpg" class="carousel-image" alt="" style="width: 561px; height: 300px;"></a>                     
+                        <div class="carousel-caption">
+                           <h4>Lab Photos</h4>
                         </div>
                      </div>
                   </div>
@@ -76,7 +95,33 @@
             </div>
          </div>
       </div>
+      
+      <footer>
+         <div class="container">
+            <p><a href="#" onclick="showContactInfo()">Contact Us</a></p>
+            <p>&copy; 2024 NeuroLang Lab, The Chinese University of Hong Kong. All rights reserved.</p>
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=2Nsv1DrkHOAYxZxoErEs_FHCwe6tFKs3XxL6RCwe2Wo'></script>
+         </div>
+      </footer>
 
+      <div id="contact-info" class="modal" style="display:none">
+         <div class="modal-content">
+            <span class="close" onclick="hideContactInfo()">&times;</span>
+            <h4>Contact Us</h4>
+            <p><br>For general information and other enquiries, please contact<br>ruyigan@cuhk.edu.hk<br></p>
+         </div>
+      </div>
+
+      <script>
+      function showContactInfo() {
+         document.getElementById("contact-info").style.display = "block";
+         document.getElementById("contact-info").scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      function hideContactInfo() {
+         document.getElementById("contact-info").style.display = "none";
+      }
+      </script>
 
       <!-- Javascript files -->
       <script src="js/jquery-1.9.1.min.js"></script>
