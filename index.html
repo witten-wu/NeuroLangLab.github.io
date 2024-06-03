@@ -10,6 +10,7 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
+      <link href="css/showindow.css" rel="stylesheet">
       <meta name="google-site-verification" content="SYJUqMMQ3iRU7nCY0W2qUX8dokH2emd85bOua252gt4" />
    </head>
    <body>
@@ -47,19 +48,19 @@
                         </div>
                      </div>
                      <div class="item">
-                        <img src="images/Lab_photo1.jpg" class="carousel-image" alt="">                      
+                        <img src="images/Lab_photo1.jpg" class="carousel-image" alt="" style="width: 400px; height: 300px;">                      
                         <div class="carousel-caption">
                            <h4>Lab Photos</h4>
                         </div>
                      </div>
                      <div class="item">
-                        <img src="images/Lab_photo2.jpg" class="carousel-image" alt="">                      
+                        <img src="images/Lab_photo2.jpg" class="carousel-image" alt="" style="width: 400px; height: 300px;">                      
                         <div class="carousel-caption">
                            <h4>Lab Photos</h4>
                         </div>
                      </div>
                      <div class="item">
-                        <img src="images/Lab_photo3.jpg" class="carousel-image" alt="">                      
+                        <img src="images/Lab_photo3.jpg" class="carousel-image" alt="" style="width: 561px; height: 300px;">                      
                         <div class="carousel-caption">
                            <h4>Lab Photos</h4>
                         </div>
@@ -95,7 +96,33 @@
          </div>
       </div>
 
-      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=tt&d=2Nsv1DrkHOAYxZxoErEs_FHCwe6tFKs3XxL6RCwe2Wo&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353'></script>
+      <footer>
+         <div class="container">
+            <p><a href="#" onclick="showContactInfo()">Contact Us</a></p>
+            <p>&copy; 2024 NeuroLang Lab, The Chinese University of Hong Kong. All rights reserved.</p>
+            <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=2Nsv1DrkHOAYxZxoErEs_FHCwe6tFKs3XxL6RCwe2Wo'></script>
+         </div>
+      </footer>
+      <div id="contact-info" class="modal" style="display:none">
+         <div class="modal-content">
+           <span class="close" onclick="hideContactInfo()">&times;</span>
+           <h2>Contact Us</h2>
+           <p><br>For general information and other enquiries, please contact<br>
+           ruyigan@cuhk.edu.hk<br></p>
+         </div>
+       </div>
+       
+       <script>
+       function showContactInfo() {
+         document.getElementById("contact-info").style.display = "block";
+       }
+       
+       function hideContactInfo() {
+         document.getElementById("contact-info").style.display = "none";
+       }
+       </script>
+
+      
       <!-- Javascript files -->
       <script src="js/jquery-1.9.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
