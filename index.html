@@ -96,36 +96,36 @@
          </div>
       </div>
       
-      <!-- Javascript files -->
-      <script src="js/jquery-1.9.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script> $('#main-carousel').carousel(); </script>
-
-      <footer class="grey-footer">
+      <footer>
          <div class="container">
             <p><a href="#" onclick="showContactInfo()">Contact Us</a></p>
             <p>&copy; 2024 NeuroLang Lab, The Chinese University of Hong Kong. All rights reserved.</p>
             <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=251&t=tt&d=2Nsv1DrkHOAYxZxoErEs_FHCwe6tFKs3XxL6RCwe2Wo&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
          </div>
       </footer>
+
       <div id="contact-info" class="modal" style="display:none">
          <div class="modal-content">
-           <span class="close" onclick="hideContactInfo()">&times;</span>
-           <h4>Contact Us</h4>
-           <p><br>For general information and other enquiries, please contact<br>ruyigan@cuhk.edu.hk<br></p>
+            <span class="close" onclick="hideContactInfo()">&times;</span>
+            <h4>Contact Us</h4>
+            <p><br>For general information and other enquiries, please contact<br>ruyigan@cuhk.edu.hk<br></p>
          </div>
-       </div>
-       
-       <script>
-       function showContactInfo() {
+      </div>
+
+      <script>
+      function showContactInfo() {
          document.getElementById("contact-info").style.display = "block";
          document.getElementById("contact-info").scrollIntoView({ behavior: 'smooth', block: 'center' });
-       }
-       
-       function hideContactInfo() {
-         document.getElementById("contact-info").style.display = "none";
-       }
-       </script>
+      }
 
+      function hideContactInfo() {
+         document.getElementById("contact-info").style.display = "none";
+      }
+      </script>
+
+      <!-- Javascript files -->
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script> $('#main-carousel').carousel(); </script>
    </body>
 </html>
