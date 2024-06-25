@@ -406,6 +406,10 @@ body>.navbar .brand:hover {
 }
 
 .jumbotron {
+	background-image: url('../img/subhead1.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	height: 100vh;
 	position: relative;
 	padding: 20px 0px 0px 0px;
 	color: #ffffff;
