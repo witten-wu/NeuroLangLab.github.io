@@ -1,12 +1,17 @@
 body {
 	padding-top: 15px;
 	padding-bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0;
 }
 
 
 /* Custom container */
 
 .container {
+	flex: 1;
 	margin: 0 auto;
 	max-width: 1000px;
 }
