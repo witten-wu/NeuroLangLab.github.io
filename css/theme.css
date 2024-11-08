@@ -412,11 +412,14 @@ body>.navbar .brand:hover {
 
 .jumbotron {
 	background-image: url('../img/subhead2.jpg');
+	background-image: url('../img/1.jpg');
+	background-image: url('../img/3.jpg');
+	background-image: url('../img/4.png');
 	background-size: 100% 100%;
 	background-position: center;
 	position: relative;
 	padding: 20px 0px 0px 0px;
-	color: #ffffff;
+	color: black;
 	text-align: center;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
 }
