@@ -412,6 +412,8 @@ body>.navbar .brand:hover {
 
 .jumbotron {
 	background-image: url('../img/subhead.jpg');
+	background-image: url('../img/1.png');
+	background-image: url('../img/3.jpg');
 	background-size: 100% 100%;
 	background-position: center;
 	position: relative;
