@@ -38,7 +38,7 @@
          <div class="row-fluid">
             <div class="span5">
                <p>
-                  Welcome to the Neurobiology of Language Learning (NLL) Lab at The Chinese University of Hong Kong (CUHK)! Our lab focuses on various contemporary cognitive neuroscience research approaches, including event-related potentials (ERP), functional magnetic resonance imaging (fMRI), and diffusion tensor imaging (DTI), in addition to systems neuroscience techniques such as multivariate neural decoding and connectivity pattern analyses. We aim to gain a deeper understanding of the cognitive and neural mechanisms underlying language learning and processing in children, adults, and clinical populations (e.g., children with cochlear implants and aphasia). Our goal is to identify critical brain pathways and uncover the mechanisms involved in language learning and representation, which facilitate the development of more precise predictive models that forecast language learning success, development, and recovery, ultimately providing evidence-based tools for enhancing language learning and rehabilitation. 
+                  Welcome to the Neurobiology of Language Learning (NLL) Lab @ The Chinese University of Hong Kong (CUHK)! Our lab focuses on various contemporary cognitive neuroscience research approaches, including event-related potentials (ERP), functional magnetic resonance imaging (fMRI), and diffusion tensor imaging (DTI), in addition to systems neuroscience techniques such as multivariate neural decoding and connectivity pattern analyses. We aim to gain a deeper understanding of the cognitive and neural mechanisms underlying language learning and processing in children, adults, and clinical populations (e.g., children with cochlear implants and aphasia). Our goal is to identify critical brain pathways and uncover the mechanisms involved in language learning and representation, which facilitate the development of more precise predictive models that forecast language learning success, development, and recovery, ultimately providing evidence-based tools for enhancing language learning and rehabilitation. 
                </p>
             </div>
             <div class="span7">
@@ -93,15 +93,16 @@
                   <a href="news07112024.html"> One paper accepted by <strong>SNL 2024</strong>. Congratulations to Chen Hong! </a>
                </p>
 
-               <p>
+               <!-- <p>
                   <span class="label label-info">[Sep, 2024]</span>
                   <a href="recruitment.html"><strong> Recruitment Notice: Research Assistant Professor at the Chinese University of Hong Kong (香港中文大学研究助理教授招聘公告) </strong></a>
-               </p>
+               </p> -->
 
                <p>
                   <span class="label label-info">[July, 2024]</span>
                   <a href="https://mp.weixin.qq.com/s/6gfrQAlMJOKAbCYrKGHXNQ"> 香港研究资助委员会博士后研究员计划 2024/25 招聘公告 </a>
                </p>
+               
                <p>
                   <span class="label label-info">[Jan, 2024]</span>
                   <a href="news30012024.html"> Congratulations to Professor Feng Gangyi on Receiving the CRF 2023/24 Young Collaborative Research Grant! </a>
@@ -126,10 +127,20 @@
       </footer>
 
       <div id="contact-info" class="modal" style="display:none">
-         <div class="modal-content">
+         <div class="modal-content" style="width: 20%;">
             <span class="close" onclick="hideContactInfo()">&times;</span>
             <h4>Contact Us</h4>
-            <p><br>For general information and other enquiries, please contact<br>ruyigan@cuhk.edu.hk<br></p>
+            <hr>
+            <p> NLL Lab <br>
+                The Chinese University of Hong Kong <br>
+                Shatin, New Territories, Hong Kong SAR <br>
+                <br>
+                For general information and other enquiries, please contact <br>
+                yiduwu[AT]cuhk[DOT]edu[DOT]hk <br>
+                <br>
+                <a href="https://www.cuhk.edu.hk/english/university/visitors.html"> Getting to the main campus </a><br>
+                <a href="https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html"> Campus map </a>
+            </p>
          </div>
       </div>
 
@@ -141,6 +152,13 @@
 
       function hideContactInfo() {
          document.getElementById("contact-info").style.display = "none";
+      }
+
+      window.onclick = function(event) {
+         const modal = document.getElementById("contact-info");
+         if (event.target === modal) {
+            hideContactInfo();
+         }
       }
       </script>
 
