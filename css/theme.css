@@ -521,6 +521,7 @@ img.carousel-image {
 .carousel-indicators {
 	position: absolute;
 	bottom: 0;
+	top: unset;
 	left: 0;
 	width: 100%;
 	margin-left: 0;
