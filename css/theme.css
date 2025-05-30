@@ -514,9 +514,32 @@ img.carousel-image {
 	margin: 0 auto;
   }
 .carousel-caption {
-	height: 35px;
-	padding: 5px;
+	height: 20px;
+	padding: 6px;
   }
+
+.carousel-indicators {
+	position: absolute;
+	bottom: 0;
+	top: unset;
+	left: 0;
+	width: 100%;
+	margin-left: 0;
+	text-align: center;
+	z-index: 15;
+}
+
+.carousel-indicators li {
+	float: none;
+	display: inline-block;
+	cursor: pointer;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.carousel-indicators li.active {
+	background-color: #fff;
+	border-color: #fff;
+}
 
 .span4-align-right {
 	float: right !important;
